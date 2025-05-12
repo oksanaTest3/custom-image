@@ -4,8 +4,8 @@ dist: focal
 vm:
   create:
     name: my_custom_name
-# before_install:
-#   - sudo apt-get -y install libxml2-dev
-# addons:
-#   apt:
-#     update: true
+before_install:
+  - sudo apt-get -y install libxml2-dev
+addons:
+  apt:
+    update: true
