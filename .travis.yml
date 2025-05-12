@@ -1,0 +1,10 @@
+os: linux
+dist: focal
+vm: #existing key
+  create:
+    name: my_custom_name #custom identier string, human readable
+before_install:
+  - sudo apt-get -y install libxml2-dev
+addons:
+  apt:
+    update: true
