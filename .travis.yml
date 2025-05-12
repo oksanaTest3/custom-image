@@ -1,6 +1,6 @@
 os: linux
 dist: focal
-vm: #existing key
+vm:
   create:
     name: my_custom_name
 # before_install:
