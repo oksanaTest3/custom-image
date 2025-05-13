@@ -1,8 +1,6 @@
-#test
 os: linux
 language: generic
 dist: focal
 
 vm:
-  create:
-    name: test-image5
+  use: test-image5
