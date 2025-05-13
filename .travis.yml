@@ -1,6 +1,8 @@
-vm:
-  use: 
-    name: test-image5
+#test
+os: linux
+language: generic
+dist: focal
 
-script:
-  - echo "test2"
+vm:
+  create:
+    name: test-image6
