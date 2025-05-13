@@ -4,7 +4,7 @@ language: java
 dist: focal
 vm:
   create:
-    name: test-image2
+    name: test-image3
 before_install:
   - sudo apt-get -y install libxml2-dev
 addons:
