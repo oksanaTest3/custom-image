@@ -1,2 +1,5 @@
 vm:
   use: test-image5
+
+script:
+  - echo "test"
