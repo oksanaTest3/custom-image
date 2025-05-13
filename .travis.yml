@@ -3,4 +3,4 @@ vm:
     name: test-image5
 
 script:
-  - echo "test1"
+  - echo "test2"
