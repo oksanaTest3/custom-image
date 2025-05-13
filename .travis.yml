@@ -1,8 +1,8 @@
 #test
 os: linux
-language: java
+language: generic
 dist: focal
 
 vm:
   create:
-    name: test-image4
+    name: test-image5
