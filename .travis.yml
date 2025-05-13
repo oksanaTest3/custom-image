@@ -2,10 +2,7 @@
 os: linux
 language: java
 dist: focal
+
 vm:
-  use: test-image3
-before_install:
-  - sudo apt-get -y install libxml2-dev
-addons:
-  apt:
-    update: true
+  create:
+    name: test-image4
