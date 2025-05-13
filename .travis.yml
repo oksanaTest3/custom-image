@@ -1,6 +1,2 @@
-os: linux
-language: generic
-dist: focal
-
 vm:
   use: test-image5
