@@ -1,5 +1,6 @@
 #test
 os: linux
+language: java
 dist: focal
 vm:
   create:
