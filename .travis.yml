@@ -5,4 +5,4 @@ dist: focal
 
 vm:
   create:
-    name: custom-image-repo
+    name: custom-image-1405-new
