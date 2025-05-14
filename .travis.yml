@@ -4,4 +4,4 @@ dist: focal
 
 vm:
   create:
-    name: test-image6
+    name: custom-image-repo
